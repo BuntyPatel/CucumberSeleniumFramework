@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Create a new deal scenario",
+        "description": "",
+        "id": "deal-data-creation;free-crm-create-a-new-deal-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11780443500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "DealsStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263938417,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Free CRM",
+            "match": {
+              "location": "DealsStepDefinition.title_of_page_is_free_CRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1026660000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "DealsStepDefinition.enter_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "BuntyPatel",
+                  "admin@123"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3905783166,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "DealsStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19240834,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on home page",
+            "match": {
+              "location": "DealsStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 228605042,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user move to new deal page",
+            "match": {
+              "location": "DealsStepDefinition.user_move_to_new_deal_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1438788666,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on New Deal link",
+            "match": {
+              "location": "DealsStepDefinition.user_clicks_on_New_Deal_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 173106417,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters deal details",
+            "match": {
+              "location": "DealsStepDefinition.user_enters_dealDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "test deal",
+                  "1000",
+                  "50",
+                  "10"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1664186333,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on save button",
+            "match": {
+              "location": "DealsStepDefinition.user_clicks_on_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86234667,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "close the browser",
+            "match": {
+              "location": "DealsStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Deal data creation",
+    "description": "",
+    "id": "deal-data-creation",
+    "keyword": "Feature",
+    "uri": "/Users/bunty/Desktop/QA/Selenium_WorkSpace/FreeCRMBDDFramework/src/main/java/Features/deals.feature"
+  }
+]
